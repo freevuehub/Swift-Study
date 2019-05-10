@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var myLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        myLabel.text = "Hello World";
+        myLabel.textColor = UIColor.blue;
+        myLabel.backgroundColor = UIColor.black;
+        myLabel.textAlignment = NSTextAlignment.center;
     }
 
 
