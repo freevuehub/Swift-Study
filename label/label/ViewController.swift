@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         myLabel.textColor = UIColor.blue;
         myLabel.backgroundColor = UIColor.black;
         myLabel.textAlignment = NSTextAlignment.center;
+        myLabel.numberOfLines = 0;
+        myLabel.font = UIFont.systemFont(ofSize: 20);
     }
 
 
