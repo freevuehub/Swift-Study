@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        myBtn.setTitle("눌러 주세요.", for: UIControl.State.normal);
     }
 
 
