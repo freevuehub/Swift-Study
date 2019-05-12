@@ -13,7 +13,7 @@ var btnView:Bool = true;
 class ViewController: UIViewController {
     @IBOutlet weak var myBtn: UIButton!
     @IBOutlet weak var disavled: UIButton!
-    @IBAction func btnAction() {        
+    @IBAction func btnAction() {
         btnView = !btnView;
         
         viewDidLoad();
@@ -21,7 +21,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         myBtn.setTitle("눌러 주세요.", for: UIControl.State.normal);
         myBtn.setTitle("누르는 중이네요.", for: UIControl.State.highlighted);
